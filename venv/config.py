@@ -1,4 +1,4 @@
 host = "localhost"
 user = "root"
-password = "root1234"
+password = "root123456@=="
 db_name = "policlinic"

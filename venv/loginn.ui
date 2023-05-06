@@ -6,32 +6,41 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>300</height>
+    <width>452</width>
+    <height>295</height>
    </rect>
   </property>
+  <property name="maximumSize">
+   <size>
+    <width>460</width>
+    <height>320</height>
+   </size>
+  </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>Вход</string>
   </property>
   <property name="windowIcon">
    <iconset>
-    <normaloff>../../../Desktop/free-icon-heartbeat-2791163.png</normaloff>../../../Desktop/free-icon-heartbeat-2791163.png</iconset>
+    <normaloff>../../../Desktop/free-icon-health-clinic-4347978.png</normaloff>../../../Desktop/free-icon-health-clinic-4347978.png</iconset>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(200, 245, 242);</string>
+   <string notr="true">background-color:rgb(192, 209, 255);</string>
   </property>
   <widget class="QPushButton" name="pushButton_2">
    <property name="geometry">
     <rect>
-     <x>100</x>
-     <y>200</y>
-     <width>181</width>
-     <height>28</height>
+     <x>130</x>
+     <y>240</y>
+     <width>191</width>
+     <height>41</height>
     </rect>
    </property>
    <property name="styleSheet">
     <string notr="true">background-color: rgb(255, 255, 255);
-font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+border-width: 50px; 
+border-radius: 10px; 
+</string>
    </property>
    <property name="text">
     <string>Регистрация</string>
@@ -40,18 +49,33 @@ font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
   <widget class="QWidget" name="formLayoutWidget">
    <property name="geometry">
     <rect>
-     <x>50</x>
-     <y>90</y>
+     <x>90</x>
+     <y>60</y>
      <width>271</width>
-     <height>61</height>
+     <height>111</height>
     </rect>
    </property>
    <layout class="QFormLayout" name="formLayout">
+    <property name="sizeConstraint">
+     <enum>QLayout::SetDefaultConstraint</enum>
+    </property>
+    <property name="labelAlignment">
+     <set>Qt::AlignHCenter|Qt::AlignTop</set>
+    </property>
+    <property name="formAlignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="horizontalSpacing">
+     <number>7</number>
+    </property>
+    <property name="verticalSpacing">
+     <number>22</number>
+    </property>
     <item row="0" column="0">
      <widget class="QLabel" name="label_4">
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(200, 245, 242);
-font: 10pt &quot;MS Shell Dlg 2&quot;</string>
+       <string notr="true">background-color:rgb(192, 209, 255);
+font: 14pt &quot;Verdana&quot;;</string>
       </property>
       <property name="text">
        <string>Логин</string>
@@ -61,8 +85,8 @@ font: 10pt &quot;MS Shell Dlg 2&quot;</string>
     <item row="1" column="0">
      <widget class="QLabel" name="label_5">
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(200, 245, 242);
-font: 10pt &quot;MS Shell Dlg 2&quot;</string>
+       <string notr="true">background-color:rgb(192, 209, 255);
+font: 14pt &quot;Verdana&quot;;</string>
       </property>
       <property name="text">
        <string>Пароль</string>
@@ -70,7 +94,7 @@ font: 10pt &quot;MS Shell Dlg 2&quot;</string>
      </widget>
     </item>
     <item row="0" column="1">
-     <widget class="QLineEdit" name="lineEdit">
+     <widget class="QLineEdit" name="lineEdit_6">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
         <horstretch>0</horstretch>
@@ -78,14 +102,22 @@ font: 10pt &quot;MS Shell Dlg 2&quot;</string>
        </sizepolicy>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color:rgb(255, 255, 255)</string>
+       <string notr="true">background: rgb(0,0,0);
+background-color: rgb(255,255,255);
+border-width: 40px; 
+border-radius: 9px; 
+font: 14pt &quot;Verdana&quot;;
+</string>
       </property>
      </widget>
     </item>
     <item row="1" column="1">
-     <widget class="QLineEdit" name="lineEdit_2">
+     <widget class="QLineEdit" name="lineEdit_7">
       <property name="styleSheet">
-       <string notr="true">background-color:rgb(255, 255, 255)</string>
+       <string notr="true">background-color:rgb(255, 255, 255);
+border-width: 40px; 
+border-radius: 9px; 
+font: 14pt &quot;Verdana&quot;;</string>
       </property>
      </widget>
     </item>
@@ -94,15 +126,17 @@ font: 10pt &quot;MS Shell Dlg 2&quot;</string>
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>100</x>
-     <y>160</y>
-     <width>181</width>
-     <height>28</height>
+     <x>130</x>
+     <y>180</y>
+     <width>191</width>
+     <height>41</height>
     </rect>
    </property>
    <property name="styleSheet">
     <string notr="true">background-color: rgb(255, 255, 255);
-font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+border-width: 50px; 
+border-radius: 10px; </string>
    </property>
    <property name="text">
     <string>Вход</string>
@@ -114,10 +148,10 @@ font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
    </property>
    <property name="geometry">
     <rect>
-     <x>160</x>
-     <y>50</y>
+     <x>190</x>
+     <y>20</y>
      <width>70</width>
-     <height>30</height>
+     <height>40</height>
     </rect>
    </property>
    <property name="sizePolicy">
@@ -135,7 +169,7 @@ font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
    <property name="maximumSize">
     <size>
      <width>70</width>
-     <height>30</height>
+     <height>40</height>
     </size>
    </property>
    <property name="baseSize">
@@ -146,8 +180,8 @@ font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
    </property>
    <property name="font">
     <font>
-     <family>MS Shell Dlg 2</family>
-     <pointsize>14</pointsize>
+     <family>Verdana</family>
+     <pointsize>18</pointsize>
      <weight>50</weight>
      <italic>false</italic>
      <bold>false</bold>
@@ -155,12 +189,20 @@ font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(200, 245, 242);
-font: 8pt &quot;MS Shell Dlg 2&quot;;
-font: 14pt &quot;MS Shell Dlg 2&quot;</string>
+    <string notr="true">background-color: rgb(255,255,255);
+font: 18pt &quot;Verdana&quot;;
+
+border-width: 50px; 
+border-radius: 10px; </string>
    </property>
    <property name="text">
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Вход&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="indent">
+    <number>-1</number>
    </property>
   </widget>
  </widget>
